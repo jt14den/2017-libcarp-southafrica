@@ -13,22 +13,10 @@ keypoints:
 
 ## Welcome to Library Carpentry!
 
-* workshop on **software skills for librarians** started as a workshop
-  * James Baker developed the workshops - Lecturer Digital History/Archives.
+* Workshop on **software skills for librarians** started as a workshop
+  * James Baker held first workshop - Lecturer Digital History/Archives
+  * Belinda Weaver organized the Sprints which gave lots of energy to lesson dev.
 * Aim of Library Carpentry is to create a community developed lessons
-
-## Whys?
-
-1. Ending Pefection - YOU CAN DO THIS STuff
-2. What is LC?
-  * COC - warm and welcoming environment
-    - kill the "geek gene"
-  * Learn by doing - lots of doing
-
-1. learning by example’, code is a means for librarians to take control of practice and to empower themselves and their organization to meet user needs in flexible ways.
-2. librarians play a crucial role in cultivating world class research. And in most research areas today world class research relies on the use of software. Librarians with software skills are then well placed to continue that cultivation of world class research.
-
----
 
 ## Library Carpentry <http://librarycarpentry.github.io/>
 
@@ -38,6 +26,14 @@ keypoints:
 > * 4 continents
 > * 2 Global sprints organizized by @weaverbel
 > * A global community
+
+## Whys?
+
+1. Ending Pefection - YOU CAN DO THIS STuff
+2. What is LC?
+  * COC - warm and welcoming environment
+    - kill the "geek gene"
+  * Learn by doing - lots of doing
 
 ---
 ## Please Join US!

@@ -205,9 +205,31 @@ $$
 
 ![](https://i.redd.it/wy2fj69in3oz.jpg)
 
-Exercises: 
-1. Write MD
-2. Use YAML headers
+> ## Your Info in Markdown
+>
+>1. Go to <https://hackmd.io> and create a guest note (This is an online markdown editin service)
+>2. Make a top header (H1) using markdown with your name
+>3. On the next line, make a bullet point and add your email as a link
+>4. Add another bullet point and rovide a link to your workplace
+>5. Create a H3 titled `My Favorite Things`
+>6. Add a numbered list of your favorite things
+>
+{: .challenge}
+
+---
+This should look something like:
+# Tim Dennis
+* <tdennis@library.ucla.edu>
+* <https://www.library.ucla.edu/>
+## My favorite things:
+1. Audiobooks
+2. Hiking
+3. Data
+---
+
+> ## Use YAML headers
+> 1. Go back to your document above
+> 2. 
 3. Download in various formats
 3. Use in openEd - githhub carpentry lessons
 4. Get a GitHub Account
