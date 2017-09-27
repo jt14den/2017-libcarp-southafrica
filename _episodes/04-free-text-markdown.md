@@ -227,10 +227,52 @@ This should look something like:
 3. Data
 ---
 
+## YAML Headers
+
+Markdown supports metadata elements that can be added at the top of the document separated by `---` before and after the YAML. They are put on single lines and expressed as `key: values` with a colon separating the key from the value. Supported YAML metadata in hackmd.io are: `title`, `description` and `tags`. These are often reused in the rendering as the `title` tag in HTML or a subsitution variables in Jekyll.
+
 > ## Use YAML headers
+>
+> YAML headers are set at the top of
 > 1. Go back to your document above
-> 2. 
-3. Download in various formats
-3. Use in openEd - githhub carpentry lessons
-4. Get a GitHub Account
-4. Creating your blog
+> 2. Add a `title`, `description` and `description` YAML metadata (it should look like the below, but wiht your data)
+{: .challenge}
+
+~~~
+title: Tim's Information
+description:  A short document containg some of Tim's info.
+tags: bio, url, email
+~~~
+{: .source}
+
+> ## Download your in different formats
+> 1. Publish your document by pressing the `Publish` link on top right
+> 2. Go back to the edit view and export as:
+>    * Markdown
+>    * ODF (will open in word)
+> 3. What do you notice?
+{: .challenge}
+
+## Markdown is used in many contexts.
+
+* All the lessons in Software, Data and Library Carpentry are written in markdown.
+* GitHub uses markdown for issues, renders markdown documents to HTML by default
+* Tools like Jupyter and RMarkdown Notebooks let you interleave markdown and Python and R code
+
+Show how to set up blog in github
+
+> ## Get a GitHub Account
+> 1. Regeister for a GitHub Account
+> 2. Go to <https://github.com/join>
+{: .challenge}
+
+> ## Getting a markdown blog in GitHub
+> 1. After you have logged into GitHub with your account above, navigate to <https://github.com/barryclark/jekyll-now>
+> 2. Click `Fork` on top right and select your repository
+> 3. Reame the repository to `yourgithubusername.gith.io`
+>    ![](https://github.com/barryclark/jekyll-now/raw/master/images/step1.gif)
+> 4. Your blog will be available at <https://yourgithubusername.github.io/>
+> 4. To customize your blog edit `_config.yml` (yes that's YAML) - replace `Barry Clark` with your name, add a description, etc.
+> 5. Publish your first blog post by edition `/_posts/2014-3-3-Hello-World.md` to publish your first blog post.
+> 1. Go back to <https://yourgithubusername.github.io/> and marvel at your work.
+> 1. Review <https://github.com/barryclark/jekyll-now> for more that you can do with the blog. 

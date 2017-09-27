@@ -12,9 +12,8 @@ keypoints:
 
 # Working with data is made easier by structuring your stuff in a consistent and predictable manner.
 
-???
 Why?
----
+
 
 # URL structure
 `ROOT/YYYY/MM/DD/words-of-title-separated-by-hyphens`
@@ -28,8 +27,6 @@ Why?
 
 `ROOT/browse.jsp?ref=REF`
 - <http://www.oldbaileyonline.org/browse.jsp?ref=OA16780417>
-
-???
 
 * Without structured information, our lives would be much poorer.
 * As library, data & archive people we know this.
@@ -55,19 +52,17 @@ ROOT/browse.jsp?ref=REF`
 
 ---
 
-#In practice, the structure of a good archive might look something like this:
+# In practice, the structure of a good archive might look something like this:
 
+TODO: good enough scicomp
 - A base or root directory, perhaps called 'work'.
 
 - A series of sub-directories such as 'events', 'data', ' projects' et cetera
 
-- Within these directories are series of directories for each event, dataset or project. Introducing a naming convention here that includes a date element keeps the information organised without the need for subdirectories by, say, year or month.
-
-???
+- Within these directories are series of directories for each event, dataset or project. Introducing a naming convention here that includes a date element keeps the information organised without the need for subdirectories by, say, year or month
 * All this should help you remember something you were working on when you come back to it later (call it real world preservation).
 
 * The crucial part for us is the file naming convention you choose.
 * The name of a file is important to ensuring it and its contents are easy to identify.
 * 'Data.xslx' doesn't fulfil this purpose. A title that describes the data does.
 * And adding dating convention to the file name, associating derived data with base data through file names, and using directory structures to aid comprehension strengthens those connection.
----

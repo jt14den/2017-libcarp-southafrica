@@ -10,6 +10,7 @@ keypoints:
 - "First key point."
 ---
 
+TODO: Rework start
 
 ## Welcome to Library Carpentry!
 
@@ -33,7 +34,8 @@ keypoints:
 2. What is LC?
   * COC - warm and welcoming environment
     - kill the "geek gene"
-  * Learn by doing - lots of doing
+    - Myths of learning code
+3. Learn by doing - lots of doing
 
 ---
 ## Please Join US!
@@ -45,23 +47,28 @@ keypoints:
 
 ## What We are DOING
 
-| 10/10               | 10/11               |
-|:--------------------|:--------------------|
-|Intro to Data        |Intro to Open Refine |
-|Foundations          |Open Refine (cont.)  |
-|Regular Expressions  |SQL                  |
-|Bash/Git             |                     |
+**9-30**
+* Intro to Data
+* Jargon Busting
+* File Structures
+* Markdown - Flat Files
+* Regular Expression
 
-Lunch: noon-1pm
-15min breaks: 10:15am &  2:30pm
+**10-1**
+* Unix Shell
+* Open Refine
+
+* Lunch: noon-1pm
+* 15min breaks: 10:30am &  2:30pm
 
 ---
+
 #### Where to go for help
 
 1. Helpers
 2. Signal for help with colored stickies -multipurpose
-3. Workshop website <https://jt14den.github.io/2016-10-10-UCB/>
-4. Etherpad FTW! <http://pad.software-carpentry.org/berkeley-libcarp>
+3. Workshop website <https://nwu-digitalhumanities.github.io/2017-09-30-lc-south-africa/>
+4. Etherpad FTW! <https://goo.gl/forms/h0CE8TyXSdnLyA2h2>
   * Instructions on getting the data for this workshop and notes will be kept there
   * Exercises will be posted there
   * Help us take notes for the class
