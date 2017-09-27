@@ -213,7 +213,6 @@ $$
 >4. Add another bullet point and rovide a link to your workplace
 >5. Create a H3 titled `My Favorite Things`
 >6. Add a numbered list of your favorite things
->
 {: .challenge}
 
 ---
@@ -225,6 +224,7 @@ This should look something like:
 1. Audiobooks
 2. Hiking
 3. Data
+
 ---
 
 ## YAML Headers
@@ -245,7 +245,7 @@ tags: bio, url, email
 ~~~
 {: .source}
 
-> ## Download your in different formats
+> ## Download your document in different formats
 > 1. Publish your document by pressing the `Publish` link on top right
 > 2. Go back to the edit view and export as:
 >    * Markdown
@@ -258,6 +258,7 @@ tags: bio, url, email
 * All the lessons in Software, Data and Library Carpentry are written in markdown.
 * GitHub uses markdown for issues, renders markdown documents to HTML by default
 * Tools like Jupyter and RMarkdown Notebooks let you interleave markdown and Python and R code
+* Most of these use Pandoc to convert markdown to other formats. 
 
 Show how to set up blog in github
 
@@ -275,4 +276,4 @@ Show how to set up blog in github
 > 4. To customize your blog edit `_config.yml` (yes that's YAML) - replace `Barry Clark` with your name, add a description, etc.
 > 5. Publish your first blog post by edition `/_posts/2014-3-3-Hello-World.md` to publish your first blog post.
 > 1. Go back to <https://yourgithubusername.github.io/> and marvel at your work.
-> 1. Review <https://github.com/barryclark/jekyll-now> for more that you can do with the blog. 
+> 1. Review <https://github.com/barryclark/jekyll-now> for more that you can do with the blog.
