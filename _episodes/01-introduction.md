@@ -10,14 +10,19 @@ keypoints:
 - "First key point."
 ---
 
-TODO: Rework start
-
 ## Welcome to Library Carpentry!
 
-* Workshop on **software skills for librarians** started as a workshop
-  * James Baker held first workshop - Lecturer Digital History/Archives
-  * Belinda Weaver organized the Sprints which gave lots of energy to lesson dev.
-* Aim of Library Carpentry is to create a community developed lessons
+### What is library carpentry?
+
+* **Software and data skills** aimed at the needs and work requirements of library professionals.
+* Training takes place in face 2 face workshops.
+* Lessons are also made available online for self-directed study or adaptation
+* Library Carpentry workshops have been taught around the world
+* Teaches librarians:
+  - how to automate repetitive, boring, error-prone tasks
+  - create, maintain and analyse sustainable and reusable data
+  - work effectively with IT and systems colleagues (most CS students in undergrad programs aren't going to be programmers)
+  - better understand and use software in research
 
 ## Library Carpentry <http://librarycarpentry.github.io/>
 
@@ -30,9 +35,17 @@ TODO: Rework start
 
 ## Whys?
 
+1. Role of librarian changed in last number of years
+  1. online resources, outsourcing of library tasks (cataloging)
+  2. People empowered to find resources themselves
+  3. Endlesss reorgs and agnst in libraries
+1. In research, academics don't need them to find information anymore
+  1. increasingingly the info they want is in data they already have, or can get - so they want to clean up, analyse, mine, sift, manage and visualize that data -- librarians with data skills can have new role
+
+### Features of LC
+
 1. Ending Pefection - YOU CAN DO THIS STuff
-2. What is LC?
-  * COC - warm and welcoming environment
+2. COC - warm and welcoming environment
     - kill the "geek gene"
     - Myths of learning code
 3. Learn by doing - lots of doing

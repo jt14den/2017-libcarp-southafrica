@@ -10,7 +10,7 @@ keypoints:
 - "First key point."
 ---
 
-# Working with data is made easier by structuring your stuff in a consistent and predictable manner.
+#### Working with data is made easier by structuring your stuff in a consistent and predictable manner.
 
 Why?
 
@@ -45,24 +45,20 @@ Why?
 `ROOT/record-type/REF`
 
 4. And the Old Bailey Online uses the format:
-ROOT/browse.jsp?ref=REF`
+`ROOT/browse.jsp?ref=REF`
 
-* What we learn from these examples is that a combination of semantic description and data elements make for consistent and predictable data structures that are readable both by humans and machines.
+* What we learn from these examples is that a **combination of semantic description and data elements*** make for consistent and predictable data structures that are readable both by humans and machines.
 * Transferring this to your stuff makes it easier to browse, to search, and to query using both the standard tools provided by operating systems and by the more advanced tools Library Carpentry will cover.
 
 ---
-
-# In practice, the structure of a good archive might look something like this:
-
-TODO: good enough scicomp
-- A base or root directory, perhaps called 'work'.
-
-- A series of sub-directories such as 'events', 'data', ' projects' et cetera
-
-- Within these directories are series of directories for each event, dataset or project. Introducing a naming convention here that includes a date element keeps the information organised without the need for subdirectories by, say, year or month
-* All this should help you remember something you were working on when you come back to it later (call it real world preservation).
-
-* The crucial part for us is the file naming convention you choose.
-* The name of a file is important to ensuring it and its contents are easy to identify.
-* 'Data.xslx' doesn't fulfil this purpose. A title that describes the data does.
-* And adding dating convention to the file name, associating derived data with base data through file names, and using directory structures to aid comprehension strengthens those connection.
+## Directories
+> ## Tip: Good Enough Practices for Scientific Computing
+>
+> [Good Enough Practices for Scientific Computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf) gives the following recommendations for project organization:
+>
+> 1. Put each project in its own directory, which is named after the project.
+> 2. Put text documents associated with the project in the `doc` directory.
+> 3. Put raw data and metadata in the `data` directory, and files generated during cleanup and analysis in a `results` directory.
+> 4. Put source for the project's scripts and programs in the `src` directory, and programs brought in from elsewhere or compiled locally in the `bin` directory.
+> 5. Name all files to reflect their content or function.
+>

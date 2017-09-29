@@ -253,12 +253,18 @@ tags: bio, url, email
 > 3. What do you notice?
 {: .challenge}
 
+> ## Copy your markdown text into a class document
+> 1. Go to <hackmd.io>
+> 2. Copy and paste your file after your name
+> 3. We'll reuse this tomorrow
+{: .discussion}
+
 ## Markdown is used in many contexts.
 
 * All the lessons in Software, Data and Library Carpentry are written in markdown.
 * GitHub uses markdown for issues, renders markdown documents to HTML by default
 * Tools like Jupyter and RMarkdown Notebooks let you interleave markdown and Python and R code
-* Most of these use Pandoc to convert markdown to other formats. 
+* Most of these use Pandoc to convert markdown to other formats.
 
 Show how to set up blog in github
 
