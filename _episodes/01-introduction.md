@@ -81,8 +81,8 @@ keypoints:
 
 1. Helpers
 2. Signal for help with colored stickies -multipurpose
-3. Workshop website: <http://pad.software-carpentry.org/2018-05-ucla-lib-carp>
-4. Etherpad FTW! <https://goo.gl/forms/h0CE8TyXSdnLyA2h2>
+3. Workshop website: <https://ucla-data-archive.github.io/2018-05-24-ucla/>
+4. Etherpad FTW! <http://pad.software-carpentry.org/2018-05-ucla-lib-carp>
   * Instructions on getting the data for this workshop and notes will be kept there
   * Exercises will be posted there
   * Help us take notes for the class
