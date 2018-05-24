@@ -17,10 +17,11 @@ keypoints:
 * **Software and data skills** aimed at the needs and work requirements of library professionals.
 * Training takes place in face 2 face workshops.
 * Lessons are also made available online for self-directed study or adaptation
+* Lessons are open, you can adapt, remix or reuse
 * Library Carpentry workshops have been taught around the world
 * Teaches librarians:
   - how to automate repetitive, boring, error-prone tasks
-  - create, maintain and analyse sustainable and reusable data
+  - create, maintain, work with and analyse sustainable and reusable data
   - work effectively with IT and systems colleagues (most CS students in undergrad programs aren't going to be programmers)
   - better understand and use software in research
 
@@ -39,16 +40,17 @@ keypoints:
   1. online resources, outsourcing of library tasks (cataloging)
   2. People empowered to find resources themselves
   3. Endlesss reorgs and agnst in libraries
-1. In research, academics don't need them to find information anymore
-  1. increasingingly the info they want is in data they already have, or can get - so they want to clean up, analyse, mine, sift, manage and visualize that data -- librarians with data skills can have new role
+1. Research has changed, more computationally derived, intensive, era data deluge - from sensors, the web and social media, simulations
+  1. increasingingly the info they want is in data they already have or acquired, or can get - so they want to clean up, analyse, mine, sift, manage and visualize that data -- librarians with data skills can have new role
 
 ### Features of LC
 
-1. Ending Pefection - YOU CAN DO THIS STuff
-2. COC - warm and welcoming environment
+1. Ending Pefection - YOU CAN DO THIS STuf
+2. Code of Conduct - warm and welcoming environment
     - kill the "geek gene"
-    - Myths of learning code
+    - Myths of learning code are demotivating for many
 3. Learn by doing - lots of doing
+4. We want to build communities of practice in libraries, so you can learn this together, have global peers who will help us
 
 ---
 ## Please Join US!
@@ -60,19 +62,18 @@ keypoints:
 
 ## What We are DOING
 
-**9-30**
-* Intro to Data
-* Jargon Busting
-* File Structures
-* Markdown - Flat Files
-* Regular Expression
+**05-24**
+* Introductions 
+* Intro to Data  
+* Jargon Busting 
+* File Naming Structures Flat Files
+* Regular Expression 90
+* Unix Shell
+* What is LC and how to get involved
 
 **10-1**
-* Unix Shell
-* Open Refine
-
-* Lunch: noon-1pm
-* 15min breaks: 10:30am &  2:30pm
+* Open Refine 3hrs
+* Git/GitHub - 3hrs
 
 ---
 
@@ -80,7 +81,7 @@ keypoints:
 
 1. Helpers
 2. Signal for help with colored stickies -multipurpose
-3. Workshop website <https://nwu-digitalhumanities.github.io/2017-09-30-lc-south-africa/>
+3. Workshop website: <http://pad.software-carpentry.org/2018-05-ucla-lib-carp>
 4. Etherpad FTW! <https://goo.gl/forms/h0CE8TyXSdnLyA2h2>
   * Instructions on getting the data for this workshop and notes will be kept there
   * Exercises will be posted there
