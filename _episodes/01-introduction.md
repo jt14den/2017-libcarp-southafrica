@@ -55,8 +55,9 @@ keypoints:
 ---
 ## Please Join US!
 
-* [Join the Forum](https://gitter.im/weaverbel/LibraryCarpentry)
-* Contribute to [Issues]((https://github.com/data-lessons/librarycarpentry/issues) & [Lessons](https://github.com/data-lessons)
+* More information on the website <http://librarycarpentry.org/>
+* [Join the Forum](https://gitter.im/LibraryCarpentry/Lobby) 
+* Contribute to [Lessons](https://github.com/librarycarpentry)
 
 ---
 
@@ -70,6 +71,7 @@ keypoints:
 * Regular Expression 90
 * Unix Shell
 * What is LC and how to get involved
+* Join us for HH at the Luskin
 
 **10-1**
 * Open Refine 3hrs
