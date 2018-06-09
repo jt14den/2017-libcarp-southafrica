@@ -126,16 +126,20 @@ Pair up with the person next to you to work through the following problems.
 >
 > > ## Solution
 > > ~~~
-> > .* ?: .*, \d{4}
+> > `.* ?: .*, \d{4}`
 > > ~~~
+> >{: .source}
 > > Without word boundaries you will find that this matches any text you put before `British` or `Manchester`. Nevertheless, the regular expression does a good job on the first look up and may be need to be refined on a second, depending on your data.
 > {: .solution}
 {: .challenge}
 
 ## Some applications
 
-1. Google spreacsheet - search and replace
+1. Google spreadsheet - search and replace
 2. Google spreadsheet - regexmatch function
 3. Text editors
 4. Shell and Openrefine
 5. Programming languages
+
+> ## Regex for Google Sheets
+> Using the [2014 Public Library Survey](https://data.imls.gov/Public-Libraries-Survey/Main-Libraries-Branches-and-Bookmobiles-FY-2014-Pu/ucdn-7aur/data), extract as a CSV and upload to Google Sheets. In the location column notice that the values contain the latitude and longitude in parenthesis. Construct a regular expression to match and extract the latitude and longitude into a new column named 'latlong'. Look up the function `REGEXEXTRACT` in Google Sheets. 

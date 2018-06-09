@@ -1,5 +1,5 @@
 ---
-title: "Regular Expression 2"
+title: "Regular Expression Explained"
 teaching: 15
 exercises: 40
 questions:
@@ -12,17 +12,19 @@ keypoints:
 
 ## Regular Expressions
 
-* one reason we place emphasis on consistent, well strutured naming conventions with files is because these patterns become actionable
+* one reason we place emphasis on consistent, well structured naming conventions with files is because these patterns become actionable
 * we can use the computer to match the patterns we've created and do things with the files that meet that pattern
-  - e.g. you have a file neame with years in it `2014`, we can then match those files
+  - e.g. you have a file name with years in it `2014`, we can then match those files
   - or if you have the term `journal` in the file somewhere, we can use the computer to select just those  files and operate on them
 * additionally, when we use plain text formats (non-binary or complex) we can select files or lines in files based on characteristics of the text inside the file
 
 **regular expressions** are the way will do this, shorted to **regex**
 
-* a regex is a sequence of characters thatdefine a search pattern - used in pattern matching with strings - like 'find and place' operations
-* Who knows what a string is?
-* string is a continguous sequence of characters, for exmple a word, a sentence, a set of numbers, such as a phone number, a doi, a url
+* a regex is a sequence of characters that define a search pattern - used in pattern matching with strings - like 'find and place' operations
+* What are strings?
+  - a linear sequence of characters, words, or other data.
+  - for example a word, a sentence, a set of numbers, such as a phone number, a doi, a url
+- A character is a symbol representing a letter or number.
 * **Regular expression** when written in many tools are surrounded by some character tell the tool "this is a regex" - many use `/your-regex/`
 
 Regexes will let you:
