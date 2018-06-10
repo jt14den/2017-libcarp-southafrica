@@ -138,8 +138,18 @@ Pair up with the person next to you to work through the following problems.
 1. Google spreadsheet - search and replace
 2. Google spreadsheet - regexmatch function
 3. Text editors
-4. Shell and Openrefine
+4. Shell and OpenRefine
 5. Programming languages
 
+saved regex: https://regex101.com/r/hNghNL/2
+
 > ## Regex for Google Sheets
-> Using the [2014 Public Library Survey](https://data.imls.gov/Public-Libraries-Survey/Main-Libraries-Branches-and-Bookmobiles-FY-2014-Pu/ucdn-7aur/data), extract as a CSV and upload to Google Sheets. In the location column notice that the values contain the latitude and longitude in parenthesis. Construct a regular expression to match and extract the latitude and longitude into a new column named 'latlong'. Look up the function `REGEXEXTRACT` in Google Sheets. 
+> Using the [2014 Public Library Survey](https://data.imls.gov/Public-Libraries-Survey/Main-Libraries-Branches-and-Bookmobiles-FY-2014-Pu/ucdn-7aur/data), extract as a CSV and upload to Google Sheets. In the location column notice that the values contain the latitude and longitude in parenthesis. Construct a regular expression to match and extract the latitude and longitude into a new column named 'latlong'. Look up the function `REGEXEXTRACT` in Google Sheets.
+> he
+>> ## Solution
+> > ~~~
+> > =REGEXEXTRACT(G2,"\((\d{2}\.\d{6}\,\s-\d{3}\.\d{6})\)")
+> >~~~
+> >{: .source}
+> {: .solution}
+{: .challenge}

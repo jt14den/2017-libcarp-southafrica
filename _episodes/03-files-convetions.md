@@ -12,8 +12,10 @@ keypoints:
 
 #### Working with data is made easier by structuring your stuff in a consistent and predictable manner.
 
-Why?
 
+use: <http://www.datacarpentry.org/rr-organization1/01-file-naming/#three-principles-for-file-names>
+
+instead.
 
 # URL structure
 `ROOT/YYYY/MM/DD/words-of-title-separated-by-hyphens`

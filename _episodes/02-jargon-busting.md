@@ -10,12 +10,16 @@ keypoints:
 - "First key point."
 ---
 
-## Jargon Busting (Group Task)
-
-### John Chodacki
-
-1. Start by getting into pairs.
-2. Next make a big list of all the problem terms, phrases, and ideas that come up. **Retain duplicates**.
-3. Then (taking common words as a starting point) work together to try and explain what a term, phrase, or idea means (note: use both each other and the internet as a resource!). Make a note of those your group resolves and those you are still struggling with. **15 minutes**
-4. Add your list of terms to the etherpad <http://pad.software-carpentry.org/berkeley-libcarp>
-5. Report back on an issue resolved by your group **1 minute each**
+> ## Jargon Busting
+>
+> This exercise is an opportunity to begin to ask questions and to get a firmer grasp on the concepts around data, code or software development in libraries.
+>
+1. Pair with a neighbor and decide who will take notes.
+1. Talk for 3 minutes (your instructor will be timing you!) on any terms, phrases, or ideas around data, code or software development in libraries that you've come across and perhaps feel you should know better.
+1. Next, get into groups of 4-6.
+1. Make a list of all the problematic terms, phrases, and ideas each pair came up with. Retain duplicates.
+1. Identify common words as a starting point - spend 10 minutes working together to try to explain what the terms, phrases, or ideas on your list mean.  Note: use both each other and the internet as a resource.
+1. Identify the terms your groups resolves as well as those you are still struggling with.
+1. Each group then reports back on one issue resolved by their group and one issue not resolved by their group.
+1. The instructor will collate these on a whiteboard and facilitate a discussion about what we will cover today and where you can go for help on those things we won't cover. Any jargon or terms that will not be covered specifically are good notes.
+{: .challenge}
