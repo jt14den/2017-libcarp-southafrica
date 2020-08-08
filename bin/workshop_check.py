@@ -1,10 +1,8 @@
-#!/usr/bin/env python
-
 '''Check that a workshop's index.html metadata is valid.  See the
 docstrings on the checking functions for a summary of the checks.
 '''
 
-from __future__ import print_function
+
 import sys
 import os
 import re
@@ -18,10 +16,10 @@ EVENTBRITE_PATTERN = r'\d{9,10}'
 URL_PATTERN = r'https?://.+'
 
 # Defaults.
-CARPENTRIES = ("dc", "swc")
+CARPENTRIES = ("dc", "swc", "lc", "cp")
 DEFAULT_CONTACT_EMAIL = 'admin@software-carpentry.org'
 
-USAGE = 'Usage: "check-workshop path/to/root/directory"'
+USAGE = 'Usage: "workshop_check.py path/to/root/directory"'
 
 # Country and language codes.  Note that codes mean different things: 'ar'
 # is 'Arabic' as a language but 'Argentina' as a country.
@@ -91,7 +89,7 @@ def check_layout(layout):
 
 @look_for_fixme
 def check_carpentry(layout):
-    '''"carpentry" in YAML header must be "dc" or "swc".'''
+    '''"carpentry" in YAML header must be "dc", "swc", "lc", or "cp".'''
 
     return layout in CARPENTRIES
 
@@ -117,7 +115,7 @@ def check_humandate(date):
     and 4-digit year.  Examples include 'Feb 18-20, 2025' and 'Feb 18
     and 20, 2025'.  It may be in languages other than English, but the
     month name should be kept short to aid formatting of the main
-    Software Carpentry web site.
+    Carpentries web site.
     """
 
     if ',' not in date:
@@ -174,8 +172,8 @@ def check_latitude_longitude(latlng):
     try:
         lat, lng = latlng.split(',')
         lat = float(lat)
-        long = float(lng)
-        return (-90.0 <= lat <= 90.0) and (-180.0 <= long <= 180.0)
+        lng = float(lng)
+        return (-90.0 <= lat <= 90.0) and (-180.0 <= lng <= 180.0)
     except ValueError:
         return False
 
@@ -203,15 +201,22 @@ def check_helpers(helpers):
 
 
 @look_for_fixme
-def check_email(email):
+def check_emails(emails):
     """
-    'contact' must be a valid email address consisting of characters,
-    an '@', and more characters.  It should not be the default contact
-    email address 'admin@software-carpentry.org'.
+    'emails' must be a comma-separated list of valid email addresses.
+    The list may be empty. A valid email address consists of characters,
+    an '@', and more characters.  It should not contain the default contact
     """
 
-    return bool(re.match(EMAIL_PATTERN, email)) and \
-           (email != DEFAULT_CONTACT_EMAIL)
+    # YAML automatically loads list-like strings as lists.
+    if (isinstance(emails, list) and len(emails) >= 0):
+        for email in emails:
+            if ((not bool(re.match(EMAIL_PATTERN, email))) or (email == DEFAULT_CONTACT_EMAIL)):
+                return False
+    else:
+        return False
+
+    return True
 
 
 def check_eventbrite(eventbrite):
@@ -286,9 +291,10 @@ HANDLERS = {
                    'helper list isn\'t a valid list of format ' +
                    '["First helper", "Second helper",..]'),
 
-    'contact':    (True, check_email,
-                   'contact email invalid or still set to ' +
-                   '"{0}".'.format(DEFAULT_CONTACT_EMAIL)),
+    'email':    (True, check_emails,
+                 'contact email list isn\'t a valid list of format ' +
+                 '["me@example.org", "you@example.org",..] or contains incorrectly formatted email addresses or ' +
+                 '"{0}".'.format(DEFAULT_CONTACT_EMAIL)),
 
     'eventbrite': (False, check_eventbrite, 'Eventbrite key appears invalid'),
 
@@ -300,10 +306,10 @@ HANDLERS = {
 }
 
 # REQUIRED is all required categories.
-REQUIRED = set([k for k in HANDLERS if HANDLERS[k][0]])
+REQUIRED = {k for k in HANDLERS if HANDLERS[k][0]}
 
 # OPTIONAL is all optional categories.
-OPTIONAL = set([k for k in HANDLERS if not HANDLERS[k][0]])
+OPTIONAL = {k for k in HANDLERS if not HANDLERS[k][0]}
 
 
 def check_blank_lines(reporter, raw):
@@ -311,7 +317,8 @@ def check_blank_lines(reporter, raw):
     Blank lines are not allowed in category headers.
     """
 
-    lines = [(i, x) for (i, x) in enumerate(raw.strip().split('\n')) if not x.strip()]
+    lines = [(i, x) for (i, x) in enumerate(
+        raw.strip().split('\n')) if not x.strip()]
     reporter.check(not lines,
                    None,
                    'Blank line(s) in header: {0}',
@@ -381,7 +388,7 @@ def check_config(reporter, filename):
                    kind)
 
     carpentry = config.get('carpentry', None)
-    reporter.check(carpentry in ('swc', 'dc'),
+    reporter.check(carpentry in ('swc', 'dc', 'lc', 'cp'),
                    filename,
                    'Missing or unknown carpentry: {0}',
                    carpentry)
